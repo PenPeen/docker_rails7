@@ -46,6 +46,11 @@ test:
 #### DB 作成
 
 ```
+docker-compose run web rails db:create
+```
+
+うまくいかない場合はマイグレーションリセット
+```
 docker-compose run web rails db:migrate:reset
 ```
 
