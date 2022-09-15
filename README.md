@@ -22,6 +22,7 @@ docker-compose run web rails new . --force --no-deps --database=mysql
 - database=mysql で DB 設定を MySQL にした状態でプロジェクト作成。
 
 #### DB 接続設定(database.yml)
+##### 開発環境の設定を以下で上書き
 
 ```
 development:
@@ -45,7 +46,7 @@ test:
 #### DB 作成
 
 ```
-docker-compose run web db:migrate:reset
+docker-compose run web rails db:migrate:reset
 ```
 
 #### Docker イメージ起動
