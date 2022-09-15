@@ -12,6 +12,11 @@ Rails7 +　 MySQL 環境
 - Gemfile.lock
 - entrypoint.sh
 
+#### ビルド
+```
+docker-compose build
+```
+
 #### Rails プロジェクトの作成
 
 ```
