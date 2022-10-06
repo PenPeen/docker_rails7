@@ -12,6 +12,14 @@ Rails7 +　 MySQL 環境
 - Gemfile.lock
 - entrypoint.sh
 
+#### clone
+```
+git clone git@github.com:PenPeen/docker_rails7.git
+```
+```
+cd docker_rails7
+```
+
 #### ビルド
 ```
 docker-compose build
